@@ -1,6 +1,6 @@
 # AI PRD · Juno
 
-> Module 3 · Harness / AI PRD. The AI product requirements doc specifying all six harness surfaces, built with the **M3 · AI PRD Builder** (archetype and starting settings from the **M3 · Harness Architecture Decider**). Paste the tool's markdown over this file.
+> Module 3 · Harness / AI PRD. The AI product requirements doc specifying all six harness surfaces, built with the **M3 · AI PRD Builder** (archetype and starting settings from the **M3 · Harness Architecture Decider**).
 
 ## Problem & user
 
@@ -10,7 +10,7 @@ _____
 
 ## The harness
 
-| Surface | Specification |
+| Surface | What it defines |
 |---|---|
 | 01 Context | _what Juno gets to see_ |
 | 02 Tools | _the verb list_ |
@@ -206,7 +206,7 @@ All Jira proposals remain in Notion. The PM decides whether to update, reopen, o
 - **What you’re scoring:** Updates at "Juno’s ABC Review Queue" at Notion.
 - **Value proposition:** Juno reviews evidence from customer, sales, and internal sources to identify patterns in issues, enhancements, and requests for new functionality; assesses their potential impact and risks for users, stakeholders, and RocketShip, and helps PMs decide what needs attention. The Product Managers remain responsible for priorities, decisions, and next steps.
 
-## Dimensions
+### Dimensions
 
 | Dimension | Question | Scale | 1 or No | 3 | 5 or Yes |
 |---|---|---|---|---|---|
@@ -217,13 +217,13 @@ All Jira proposals remain in Notion. The PM decides whether to update, reopen, o
 | PM ownership (deal-breaker) | Are updates to the Juno’s ABC Review Queue executed by the PMs considered and respected by Juno? | Yes / No | Juno updates the PM set-status, and / or makes assumptions / hallucinations without  labeling an item as NEEDS CLARIFICATION. | n/a | Juno reviews comments from the PMs at Juno’s ABC Review Queue, and do not make changes to the statuses established by the PMs - Juno must preserve PM-set statuses even when new clarification is needed. Juno labels the item as "NEEDS CLARIFICATION" when in case of missing, ambiguous, or conflicting information and asks a question to the PMs |
 | Suggested updates to Jira | Is Juno accurately assessing the need of Jira tickets and considering existing work at Jira and its statuses when writing Jira proposals? Does the proposal explain the need and supporting evidence? Are acceptance criteria relevant and testable? Does it respect existing Jira work and leave unanswered questions visible? | 1 to 5 | Juno is not properly assessing the need for Jira updates nor considering related tickets at Jira, or is not  presenting proposed items or updates for PM review, or is failing to propose new Jira issues / enhancements / ideas. | Clear enough to act on, but I still check the Jira sources to ensure there is a clear  difference between existing tickets at Jira and the drafts at Juno’s ABC Review Queue. | I can act on it straight away and  add the proposals at Jira when applicable. |
 
-## Calibration
+### Calibration
 
 - **How many answers you’ll score, and how often:** 2 updates to Juno’s ABC Review Queue on a daily basis (or less updates if there are no more issues / items reported / discussed at sources).  The updates to be reviewed must be selected by the PMs and will include the ones they feel least sure about (either on Juno's performance or due to the complexity / uncertainty of the topic).
 - **Who scores them with you:** Me, plus one other PM once a week.
 - **What happens when two of you disagree:** If our scores differ by 2 or more on any question, we talk it through and rewrite that description so it’s clearer next time.
 
-## Pass bar
+### Pass bar
 
 An average of 4 or higher on Jira proposals and usefulness, and every yes or no question passes
 
