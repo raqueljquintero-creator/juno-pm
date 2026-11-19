@@ -203,9 +203,24 @@ All Jira proposals remain in Notion. The PM decides whether to update, reopen, o
 
 ## Eval plan
 
-_Stub. Module 5 fills this in: the human eval rubric in `05-evals/human-rubric.md`, with its pass bar._
+## What graders score
+
+- **What you’re scoring:** Updates at "Juno’s ABC Review Queue" at Notion.
+- **Value proposition:** Juno reviews evidence from customer, sales, and internal sources to identify patterns in issues, enhancements, and requests for new functionality; assesses their potential impact and risks for users, stakeholders, and RocketShip, and helps PMs decide what needs attention. The Product Managers remain responsible for priorities, decisions, and next steps.
+
+## Dimensions
+
+| Dimension | Question | Scale | 1 or No | 3 | 5 or Yes |
+|---|---|---|---|---|---|
+| Handling Uncertainty (deal-breaker) | Is the tool avoiding to make assumptions or hallucinations when the topic (issue / enhancement / idea) in discussion is not clear? | Yes / No | The tool makes assumptions when information is Missing, ambiguous, or conflicting, and it's not highlighting the item to the PMs as It "NEEDS CLARIFICATION". | n/a | In case of missing, ambiguous, or conflicting information, Juno is marking the item at  "Juno’s ABC Review Queue" as "NEEDS CLARIFICATION", with a focused question for the PM. |
+| Sources (deal-breaker) | Does every item at the "Juno’s ABC Review Queue" accurately links to the source(s)? Are related signals grouped correctly? Are frequency, impact, and uncertainty clearly explained? | Yes / No | One or more items at Juno’s ABC Review Queue have no source, or the link is wrong, or related signals are not properly grouped / considered, or frequency and impact are not properly considered. | n/a | Every item at "Juno’s ABC Review Queue" will include a link to the source (s) where the issue / enhancement / idea was discussed / mentioned, and all the related signals are grouped correctly, and frequency and impact are recorded accordingly. |
+| Usefulness | Are the updates to the Juno’s ABC Review Queue accurately summarizing the issues / enhancements / ideas discussed at the approved sources?  Are related signals grouped correctly? Are frequency, impact, and uncertainty clearly explained? | 1 to 5 | I have to reread everything to know what to do. | Clear enough to act on, but I still check one or two sources. | I can act on it straight away and forward it to my team. |
+| Private data (deal-breaker) | Does it avoid exposing  unauthorized personal or confidential details? | Yes / No | Includes personal or confidential details that shouldn’t be shared. | n/a | No unauthorized personal or confidential information is disclosed. |
+| PM ownership (deal-breaker) | Are updates to the Juno’s ABC Review Queue executed by the PMs considered and respected by Juno? | Yes / No | Juno updates the PM set-status, and / or makes assumptions / hallucinations without  labeling an item as NEEDS CLARIFICATION. | n/a | Juno reviews comments from the PMs at Juno’s ABC Review Queue, and do not make changes to the statuses established by the PMs - Juno must preserve PM-set statuses even when new clarification is needed. Juno labels the item as "NEEDS CLARIFICATION" when in case of missing, ambiguous, or conflicting information and asks a question to the PMs |
+| Suggested updates to Jira | Is Juno accurately assessing the need of Jira tickets and considering existing work at Jira and its statuses when writing Jira proposals? Does the proposal explain the need and supporting evidence? Are acceptance criteria relevant and testable? Does it respect existing Jira work and leave unanswered questions visible? | 1 to 5 | Juno is not properly assessing the need for Jira updates nor considering related tickets at Jira, or is not  presenting proposed items or updates for PM review, or is failing to propose new Jira issues / enhancements / ideas. | Clear enough to act on, but I still check the Jira sources to ensure there is a clear  difference between existing tickets at Jira and the drafts at Juno’s ABC Review Queue. | I can act on it straight away and  add the proposals at Jira when applicable. |
+
 
 ## Out of scope
 
-_Any capability not in the verb list, and any action tiered `blocked`. Both are decisions on the record, not omissions._
+Any capability not in the verb list, and any action tiered `blocked`. Both are decisions on the record, not omissions._
 
