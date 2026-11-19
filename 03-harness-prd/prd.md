@@ -203,8 +203,6 @@ All Jira proposals remain in Notion. The PM decides whether to update, reopen, o
 
 ## Eval plan
 
-## What graders score
-
 - **What you’re scoring:** Updates at "Juno’s ABC Review Queue" at Notion.
 - **Value proposition:** Juno reviews evidence from customer, sales, and internal sources to identify patterns in issues, enhancements, and requests for new functionality; assesses their potential impact and risks for users, stakeholders, and RocketShip, and helps PMs decide what needs attention. The Product Managers remain responsible for priorities, decisions, and next steps.
 
@@ -219,8 +217,38 @@ All Jira proposals remain in Notion. The PM decides whether to update, reopen, o
 | PM ownership (deal-breaker) | Are updates to the Juno’s ABC Review Queue executed by the PMs considered and respected by Juno? | Yes / No | Juno updates the PM set-status, and / or makes assumptions / hallucinations without  labeling an item as NEEDS CLARIFICATION. | n/a | Juno reviews comments from the PMs at Juno’s ABC Review Queue, and do not make changes to the statuses established by the PMs - Juno must preserve PM-set statuses even when new clarification is needed. Juno labels the item as "NEEDS CLARIFICATION" when in case of missing, ambiguous, or conflicting information and asks a question to the PMs |
 | Suggested updates to Jira | Is Juno accurately assessing the need of Jira tickets and considering existing work at Jira and its statuses when writing Jira proposals? Does the proposal explain the need and supporting evidence? Are acceptance criteria relevant and testable? Does it respect existing Jira work and leave unanswered questions visible? | 1 to 5 | Juno is not properly assessing the need for Jira updates nor considering related tickets at Jira, or is not  presenting proposed items or updates for PM review, or is failing to propose new Jira issues / enhancements / ideas. | Clear enough to act on, but I still check the Jira sources to ensure there is a clear  difference between existing tickets at Jira and the drafts at Juno’s ABC Review Queue. | I can act on it straight away and  add the proposals at Jira when applicable. |
 
+## Calibration
+
+- **How many answers you’ll score, and how often:** 2 updates to Juno’s ABC Review Queue on a daily basis (or less updates if there are no more issues / items reported / discussed at sources).  The updates to be reviewed must be selected by the PMs and will include the ones they feel least sure about (either on Juno's performance or due to the complexity / uncertainty of the topic).
+- **Who scores them with you:** Me, plus one other PM once a week.
+- **What happens when two of you disagree:** If our scores differ by 2 or more on any question, we talk it through and rewrite that description so it’s clearer next time.
+
+## Pass bar
+
+An average of 4 or higher on Jira proposals and usefulness, and every yes or no question passes
+
+**Fails outright, whatever the average:**
+
+- Handling Uncertainty: any "no"
+- Sources: any "no"
+- Private data: any "no"
+- PM ownership: any "no"
+
 
 ## Out of scope
 
-Any capability not in the verb list, and any action tiered `blocked`. Both are decisions on the record, not omissions._
+The following capabilities are outside Juno’s scope:
+
+- Creating, editing, reopening, or deleting Jira tickets. Juno prepares proposals in Notion; PMs make all Jira changes.
+- Assigning priorities, approving scope changes, making roadmap commitments, or coordinating delivery and next steps with the broader team.
+- Making product strategy, contractual, legal, or regulatory decisions.
+- Drafting external communications or communicating outside the approved PM-only Slack channel and Notion review queue.
+- Accessing unapproved sources or modifying CRM records, roadmap content, strategy documents, or other source material.
+- Changing PM-authored content, reviewer assignments, decisions, or PM-set statuses.
+
+The following capabilities are deferred beyond the MVP:
+
+- Recovering information older than the ten-day recovery window after an extended outage.
+- Providing PM-facing controls to pause or reschedule Juno.
+- Automatically archiving Notion review history after one year.
 
