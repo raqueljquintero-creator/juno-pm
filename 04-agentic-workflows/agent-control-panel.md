@@ -163,4 +163,3 @@ Raise these checkpoints through “Juno’s ABC Review Queue” and summarize th
 - Contract, legal, or regulatory decisions are involved: Present the relevant evidence and question to the PM; do not make the decision or draft external communications.
 - A PM comment or decision is unclear: Ask for clarification. Do not treat an unclear comment as approval or overwrite the PM’s status or decision.
 
-Raise these checkpoints through “Juno’s ABC Review Queue” and summarize them in “Juno’s daily review.” Follow the existing queue-status permissions. An unanswered checkpoint never counts as approval.
