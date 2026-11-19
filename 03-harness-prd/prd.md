@@ -219,7 +219,7 @@ All Jira proposals remain in Notion. The PM decides whether to update, reopen, o
 
 ### Calibration
 
-- **How many answers you’ll score, and how often:** 2 updates to Juno’s ABC Review Queue on a daily basis (or less updates if there are no more issues / items reported / discussed at sources).  The updates to be reviewed must be selected by the PMs and will include the ones they feel least sure about (either on Juno's performance or due to the complexity / uncertainty of the topic).
+- **How many answers you’ll score, and how often:** Evaluate two Juno’s ABC Review Queue updates each day, or all updates if fewer than two are available. Select one at random and one involving greater complexity or uncertainty; if only one is available, evaluate it once. Each week, report the percentage of evaluated updates that meet the M5 pass bar and the number evaluated. A week with no updates is recorded as “No data.
 - **Who scores them with you:** Me, plus one other PM once a week.
 - **What happens when two of you disagree:** If our scores differ by 2 or more on any question, we talk it through and rewrite that description so it’s clearer next time.
 
