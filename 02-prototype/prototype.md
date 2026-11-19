@@ -27,7 +27,7 @@ _**What it takes off your plate**_
 
 Juno reduces the time PMs spend reading the three Slack channels, checking Jira and the roadmap, and searching the Notion queue for related evidence or prior decisions. It brings relevant signals together, shows when new reports relate to existing work, and makes it visible when a PM has taken ownership. PMs can spend less time searching and reconciling context, while keeping control of priorities, decisions, communications, and Jira changes.
 
-
+**Note:** The prototype demonstrates the core workflow using Slack, Jira and Notion. The subsequent PRD expands the approved sources to include a CRM pipeline view for customer needs and blockers, and a Product Strategy One-Pager for product context. These additional sources are part of the proposed design and are not demonstrated in the prototype.
 _____
 
 ## Debrief
